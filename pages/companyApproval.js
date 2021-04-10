@@ -1,8 +1,10 @@
+import Layout from "../components/Layout";
+
 const CompanyApproval = () => {
   return (
-    <div>
+    <Layout>
       <p>CompanyApproval</p>
-    </div>
+    </Layout>
   );
 };
 
