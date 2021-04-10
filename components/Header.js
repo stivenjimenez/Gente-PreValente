@@ -1,11 +1,15 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <div className="text-white  h-16 bg-gray-GrayNavBarGDM flex justify-between">
       <div className="flex items-center">
-        <div className=" ml-14 flex items-center ">
-          <img className="h-16" src={"https://i.imgur.com/GOSHJ9F.png"} />
-          <p className="text-white font-bold">Gente Prevalente</p>
-        </div>
+        <Link href="/">
+          <div className="cursor-pointer ml-14 flex items-center ">
+            <img className="h-16" src={"https://i.imgur.com/GOSHJ9F.png"} />
+            <p className="text-white font-bold">Gente Prevalente</p>
+          </div>
+        </Link>
         <div className=" ml-32 xl:flex lg:hidden sm:hidden items-center">
           <img
             className="w-4 h-4 mr-1.5"
