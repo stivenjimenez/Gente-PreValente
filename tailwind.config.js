@@ -3,6 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+
     screens: {
       tablet: "640px",
       // => @media (min-width: 640px) { ... }
@@ -18,10 +19,12 @@ module.exports = {
       lg: "1262px",
       xl: "1280px",
     },
+
     colors: {
       gray: {
         GrayNavBarGDM: "#2F3337",
         grayGDM: "#E5E7EB",
+        soft: "#727171",
       },
       blue: {
         BlueGDM: "#26B4FF",
